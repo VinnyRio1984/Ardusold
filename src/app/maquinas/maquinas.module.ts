@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { EmpregadosRoutingModule } from './empregados-routing.module';
+import { MaquinasRoutingModule } from './maquinas-routing.module';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    EmpregadosRoutingModule
+    MaquinasRoutingModule
   ]
 })
-export class EmpregadosModule { }
+export class MaquinasModule { }

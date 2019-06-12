@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { EmpregadosRoutingModule } from './empregados-routing.module';
+import { ServicosRoutingModule } from './servicos-routing.module';
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    EmpregadosRoutingModule
+    ServicosRoutingModule
   ]
 })
-export class EmpregadosModule { }
+export class ServicosModule { }
