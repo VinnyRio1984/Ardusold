@@ -1,28 +1,30 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">{{ title }}</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" routerLink="/" routerLinkActive="active">Dashbord <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" routerLink="/empregados" routerLinkActive="active">Funcionários</a>
-      <a class="nav-item nav-link" routerLink="/maquinas" routerLinkActive="active">Maquinas</a>
-      <a class="nav-item nav-link" routerLink="/servicos" routerLinkActive="active">Serviços</a>
-      <a class="nav-item nav-link" routerLink="/clientes" routerLinkActive="active">Cliente</a>
+<div class="fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <a class="navbar-brand" href="#">{{ title }}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/" routerLinkActive="active">Dashbord <span
+            class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" routerLink="/empregados" routerLinkActive="active">Funcionários</a>
+        <a class="nav-item nav-link" routerLink="/maquinas" routerLinkActive="active">Maquinas</a>
+        <a class="nav-item nav-link" routerLink="/servicos" routerLinkActive="active">Serviços</a>
+        <a class="nav-item nav-link" routerLink="/clientes" routerLinkActive="active">Cliente</a>
+      </div>
     </div>
-  </div>
-</nav>
-
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">{{ title }}!</h1>
-      <p class="lead">Sistema de Controle de Maquinas de Solda</p>
-    </div>
+  </nav>
 </div>
-  
+
+<div class="jumbotron jumbotron-fluid bg-secondary text-white">
+  <div class="container">
+    <h1 class="display-4">{{ title }}</h1>
+    <p class="lead">Sistema de Controle de Maquinas de Solda</p>
+  </div>
+</div>
+
 <div class="container">
   <router-outlet></router-outlet>
 </div>
-
